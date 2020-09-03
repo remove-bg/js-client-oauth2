@@ -478,12 +478,6 @@ TokenFlow.prototype.getToken = function (uri, opts) {
   var url = typeof uri === 'object' ? uri : new URL(uri, DEFAULT_URL_BASE)
   var expectedUrl = new URL(options.redirectUri, DEFAULT_URL_BASE)
 
-  if (typeof url.pathname === 'string' && url.pathname !== expectedUrl.pathname) {
-    return Promise.reject(
-      new TypeError('Redirected path should match configured path, but got: ' + url.pathname)
-    )
-  }
-
   // If no query string or fragment exists, we won't be able to parse
   // any useful information from the uri.
   if (!url.hash && !url.search) {

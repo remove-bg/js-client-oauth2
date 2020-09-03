@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mulesoft/js-client-oauth2.git"
+    "url": "git://github.com/remove-bg/js-client-oauth2.git"
   },
   "keywords": [
     "oauth2",
@@ -37,9 +37,9 @@
   "author": "MuleSoft, Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mulesoft/js-client-oauth2/issues"
+    "url": "https://github.com/remove-bg/js-client-oauth2/issues"
   },
-  "homepage": "https://github.com/mulesoft/js-client-oauth2",
+  "homepage": "https://github.com/remove-bg/js-client-oauth2",
   "devDependencies": {
     "body-parser": "^1.19.0",
     "browserify": "^16.5.0",
